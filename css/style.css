@@ -15,6 +15,8 @@ body {
 
 .container2 { /* Il conteiner racchiude al suo interno gli elementi che devi indicare con "flex-items"*/
     display: flex;
+    flex-direction: row;
+    align-items: column;
     justify-content: center;
     background-color: red;
     margin: 10px;
@@ -29,6 +31,16 @@ body {
 .divboximgcolor {
     background-color: black;
 }
+
+.jcimgstart {
+  justify-content: flex-start;
+}
+
+.jctextend {
+  justify-content: flex-end;
+}
+
+
 
   
   
