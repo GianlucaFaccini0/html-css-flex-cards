@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header { /* Ritocca tra poco, vai avanti per ora */
+
+}
+
+.container { /* Il conteiner racchiude al suo interno gli elementi che devi indicare con "flex-items"*/
+    display: flex;
+    justify-content: flex-end;
+}
