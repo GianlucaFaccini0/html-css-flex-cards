@@ -1,27 +1,34 @@
+body {
+    background-color: red;
+}
+
 .header { /* Ritocca tra poco, vai avanti per ora */
     justify-content: center;   
+}
+
+.container { /* Il conteiner racchiude al suo interno gli elementi che devi indicare con "flex-items"*/
+    display: flex;
+    justify-content: center;
+    background-color: white;
     
-  }
-  
-  .container { /* Il conteiner racchiude al suo interno gli elementi che devi indicare con "flex-items"*/
-      display: flex;
-      justify-content: center;
-      background-color: white;
-      
-  }
-  
-  .container2 { /* Il conteiner racchiude al suo interno gli elementi che devi indicare con "flex-items"*/
-      display: flex;
-      justify-content: center;
-      background-color: red;
-      margin: 10px;
-      padding: 50px;
-      
-  }
-  
-  .divboximgcolor {
+}
+
+.container2 { /* Il conteiner racchiude al suo interno gli elementi che devi indicare con "flex-items"*/
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    margin: 10px;
+    padding: 50px;
+    
+}
+
+.divboxcellscenter {
+    justify-content: center;
+}
+
+.divboximgcolor {
     background-color: black;
-  }
-  
+}
+
   
   
