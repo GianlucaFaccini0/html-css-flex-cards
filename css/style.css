@@ -18,9 +18,22 @@ body {
     flex-direction: row;
     justify-content: center;
     background-color: red;
-    margin: 10px;
+    margin: -20px;
     padding: 50px;
-    
+}
+
+.container3 { /* Il conteiner racchiude al suo interno gli elementi che devi indicare con "flex-items"*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: red;
+    margin: -20px;
+    padding: 50px;
+}
+
+.jcaround {
+  justify-content: space-around;
+  
 }
 
 .divboxcellscenter {
@@ -33,15 +46,21 @@ body {
 
 .jcimgstart {
   justify-content: flex-start;
+  flex-direction: row;
 }
 
 .jctextend {
   justify-content: flex-end;
+  flex-direction: low;
 }
 
 .imgsize {
   width:100px;
   height:100px;
+}
+
+.card-length {
+  length: 120px;
 }
 
 
